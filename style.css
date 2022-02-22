@@ -1,0 +1,26 @@
+body {
+    text-align: center; 
+}
+.quadrado {
+    text-align: center;
+    color: #eee;
+    display: inline-block;
+    background: #eee;
+    width: 50px;
+    padding: 30px;
+    margin: 5px;
+    font-size: 35px;
+    cursor: pointer;
+}
+.jogador, .vencedor {
+    font-size: 25px;
+    margin-top: 7px;
+}
+button {
+    background-color: #eee;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin-top: 7px;
+    border: 2px solid #cecece;
+}
