@@ -38,35 +38,28 @@ function checaVencedor () {
     if (checaSequencia(quadrado1, quadrado2, quadrado3)) {
         mudaCorQuadrado(quadrado1, quadrado2, quadrado3);
         mudaVencedor(quadrado1)
-    }
-    if (checaSequencia(quadrado4, quadrado5, quadrado6)) {
+    } else if (checaSequencia(quadrado4, quadrado5, quadrado6)) {
         mudaCorQuadrado(quadrado4, quadrado5, quadrado6);
         mudaVencedor(quadrado4)
-    }
-    if (checaSequencia(quadrado7, quadrado8, quadrado9)) {
+    } else if (checaSequencia(quadrado7, quadrado8, quadrado9)) {
         mudaCorQuadrado(quadrado7, quadrado8, quadrado9);
         mudaVencedor(quadrado7)
-    }
-    if (checaSequencia(quadrado1, quadrado4, quadrado7)) {
+    } else if (checaSequencia(quadrado1, quadrado4, quadrado7)) {
         mudaCorQuadrado(quadrado1, quadrado4, quadrado7);
         mudaVencedor(quadrado1)
-    }
-    if (checaSequencia(quadrado2, quadrado5, quadrado8)) {
+    } else if (checaSequencia(quadrado2, quadrado5, quadrado8)) {
         mudaCorQuadrado(quadrado2, quadrado5, quadrado8);
         mudaVencedor(quadrado2)
-    }
-    if (checaSequencia(quadrado3, quadrado6, quadrado9)) {
+    } else if (checaSequencia(quadrado3, quadrado6, quadrado9)) {
         mudaCorQuadrado(quadrado3, quadrado6, quadrado9);
         mudaVencedor(quadrado3)
-    }
-    if (checaSequencia(quadrado3, quadrado5, quadrado7)) {
+    } else if (checaSequencia(quadrado3, quadrado5, quadrado7)) {
         mudaCorQuadrado(quadrado3, quadrado5, quadrado7);
         mudaVencedor(quadrado3)
-    }
-    if (checaSequencia(quadrado1, quadrado5, quadrado9)) {
+    } else if (checaSequencia(quadrado1, quadrado5, quadrado9)) {
         mudaCorQuadrado(quadrado1, quadrado5, quadrado9);
         mudaVencedor(quadrado1)
-    }
+    } 
 }
 function mudaVencedor (quadrado) {
     vencedor = quadrado.innerText;
